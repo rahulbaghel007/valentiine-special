@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  /* background-color: orange; */
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    height: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 15px;
+  /* background-color: aqua; */
+}
+/* .buttons {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+} */
+
+.yes {
+  /* color: white; */
+  /* background-color: #FF5733; Orange background */
+  /* padding: 16px 5px; Some padding */
+  /* border-radius: 3px; Rounded corners */
+  /* font-weight: bold; Bold text */
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  /* border-radius: 500px; */
+    /* transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s; */
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 10px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1ed760;
+  height: 15px;
+  margin-right: 50px;
+  
+}
+.no {
+  /* background-color: red; */
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  /* border-radius: 500px; */
+  /* transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s; */
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 0px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: red;
+  height: 15px;
+
+}
